@@ -2,6 +2,7 @@ package com.example.car_emergency_assistant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -41,7 +42,11 @@ public class LoginActivity extends AppCompatActivity {
         }
         else
         {
+            Intent service_intent = new Intent(getBaseContext(), SensorService.class);
 
+            startService(service_intent);
+
+            finish();
         }
     }
 }

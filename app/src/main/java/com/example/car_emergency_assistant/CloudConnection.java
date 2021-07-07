@@ -11,6 +11,11 @@ public class CloudConnection {
         return true; // TODO!
     }
 
+    public void send_data(byte[] data)
+    {
+        return; // TODO!
+    }
+
     public void set_alarm(String severity)
     {
         return; // TODO!
