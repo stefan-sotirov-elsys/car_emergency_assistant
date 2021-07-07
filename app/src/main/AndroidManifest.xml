@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Car_emergency_assistant">
+        <activity android:name=".PromptActivity"></activity>
 
         <service
             android:name=".SensorService"
