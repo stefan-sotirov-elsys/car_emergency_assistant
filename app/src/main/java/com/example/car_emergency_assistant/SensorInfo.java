@@ -14,7 +14,7 @@ public class SensorInfo
         return; //TODO
     }
 
-    public boolean check_for_issues()
+    public boolean check_for_issues() // This is where event listening is going to happen
     {
         return true; //TODO
     }
