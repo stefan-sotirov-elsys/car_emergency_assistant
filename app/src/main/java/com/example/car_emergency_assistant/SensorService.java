@@ -13,7 +13,7 @@ public class SensorService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Sensor sensor = new Sensor();
+        SensorInfo sensor = new SensorInfo();
 
         while (true)
         {
