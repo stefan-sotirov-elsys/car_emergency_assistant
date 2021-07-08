@@ -1,10 +1,10 @@
 package com.example.car_emergency_assistant;
 
-public class Sensor
+public class SensorInfo
 {
     float acceleration, angular_acceleration;
 
-    public Sensor()
+    public SensorInfo()
     {
         return; //TODO
     }
